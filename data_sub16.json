@@ -1,0 +1,26 @@
+{
+  "jogadores": [
+    { "Nº": 42, "NOME": "GUI FERREIRA",      "GOLO": 0, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 44, "NOME": "NUNO PAULINO",      "GOLO": 0, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 46, "NOME": "DAVID SILVA",       "GOLO": 0, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 49, "NOME": "JOÃO ROCHA",        "GOLO": 0, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 52, "NOME": "RICARDO SILVA",     "GOLO": 2, "7 METROS": 0.2857142857, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 53, "NOME": "JOÃO SARAIVA",      "GOLO": 0, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 55, "NOME": "MARTIN SILVA",      "GOLO": 0, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 56, "NOME": "DANIEL SILVA",      "GOLO": 2, "7 METROS": 0.2857142857, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 57, "NOME": "HENRIQUE SILVA",    "GOLO": 0, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 66, "NOME": "VASCO CAMPELO",     "GOLO": 0, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 61, "NOME": "EDUARDO KRUEL",     "GOLO": 0, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 9,  "NOME": "JOSE ROCHA",        "GOLO": 3, "7 METROS": 0.4285714286, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 43, "NOME": "DUARTE ALVES",      "GOLO": 0, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 47, "NOME": "JORGE SOARES",      "GOLO": 0, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 55, "NOME": "GONÇALO FERREIRA",  "GOLO": 0, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 64, "NOME": "VICENTE MAGALHÃES", "GOLO": 0, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 }
+  ],
+
+  "guarda_redes": [
+    { "Nº": 60, "NOME": "MARTIN SANTOS",      "G SOFRID": 0, "7 M SOF": 0, "7 M DEF": 0, "DEFESAS": 0, "FALHA PAS": 0, "2 MIN": 0 },
+    { "Nº": 50, "NOME": "RAFAEL MARAVALHAS",  "G SOFRID": 0, "7 M SOF": 0, "7 M DEF": 0, "DEFESAS": 0, "FALHA PAS": 0, "2 MIN": 0 },
+    { "Nº": 48, "NOME": "LUCA SANTOS",        "G SOFRID": 0, "7 M SOF": 0, "7 M DEF": 0, "DEFESAS": 0, "FALHA PAS": 0, "2 MIN": 0 }
+  ]
+}
