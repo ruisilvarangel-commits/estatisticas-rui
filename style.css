@@ -1,0 +1,127 @@
+/* -----------------------------------
+   ESTATÍSTICAS RUI - ESTILOS (TEMA CLARO)
+-------------------------------------- */
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    color: #222;
+    padding-bottom: 70px; /* espaço para tab-bar fixa */
+}
+
+/* HEADER */
+header {
+    background: #0b63d1;
+    color: #fff;
+    padding: 18px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+}
+
+/* TAB BAR (NAVEGAÇÃO INFERIOR) */
+.tab-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    background: #ffffff;
+    border-top: 2px solid #d9d9d9;
+    z-index: 999;
+}
+
+.tab-bar button {
+    flex: 1;
+    padding: 12px 0;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    background: white;
+    color: #0b63d1;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.tab-bar button:hover {
+    background: #eaf1ff;
+}
+
+.tab-bar .activeTab {
+    background: #0b63d1;
+    color: white;
+}
+
+/* SECÇÕES */
+.tab-section {
+    padding: 20px;
+}
+
+/* TABELAS MELHORADAS */
+.tableWrapper {
+    overflow-x: auto;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+th {
+    background: #0b63d1;
+    color: white;
+    text-align: left;
+    padding: 8px;
+    position: sticky;
+    top: 0;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+tr:nth-child(even) {
+    background: #f7f7f7;
+}
+
+/* GRÁFICOS */
+#graficoGolos {
+    margin-top: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* TABELA ORIGINAL */
+pre {
+    white-space: pre-wrap;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    font-family: monospace;
+    font-size: 13px;
+    overflow-x: auto;
+}
+
+/* TITULOS */
+h2 {
+    color: #0b63d1;
+    margin-bottom: 15px;
+}
