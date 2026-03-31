@@ -1,0 +1,20 @@
+{
+  "casa_fora": [
+    { "Nº": 42, "GOLO": 0, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 44, "GOLO": 0, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 46, "GOLO": 0, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 49, "GOLO": 0, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 52, "GOLO": 2, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 53, "GOLO": 0, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 56, "GOLO": 2, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 57, "GOLO": 0, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 61, "GOLO": 0, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 66, "GOLO": 0, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 },
+    { "Nº": 9,  "GOLO": 3, "7 METROS": 0, "7 M FALHA": 0, "REM. FALHA": 0, "FALTA TECN": 0, "2 MIN": 0 }
+  ],
+
+  "guarda_redes": [
+    { "Nº": 50, "G SOFRID": 0, "7 M SOF": 0, "7 M DEF": 0, "DEFESAS": 0, "FALHA PAS": 0, "2 MIN": 0 },
+    { "Nº": 60, "G SOFRID": 0, "7 M SOF": 0, "7 M DEF": 0, "DEFESAS": 0, "FALHA PAS": 0, "2 MIN": 0 }
+  ]
+}
