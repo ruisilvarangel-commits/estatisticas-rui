@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ESTATÍSTICAS RUI</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Manifest PWA -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("service-worker.js");
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>ESTATÍSTICAS RUI</h1>
+    </header>
+
+    <nav class="tab-bar">
+        <button onclick="showTab('casa')" class="activeTab">CASA / FORA</button>
+        <button onclick="showTab('sub16')">SUB16</button>
+        <button onclick="showTab('graficos')">GRÁFICOS</button>
+        <button onclick="showTab('original')">TABELA ORIGINAL</button>
+    </nav>
+
+    <main>
+        <!-- CASA/FORA -->
+        <section id="casa" class="tab-section">
+            <h2>CASA / FORA</h2>
+            <div id="casaTabela"></div>
+        </section>
+
+        <!-- SUB16 -->
+        <section id="sub16" class="tab-section" style="display:none;">
+            <h2>SUB16</h2>
+            <div id="sub16Tabela"></div>
+        </section>
+
+        <!-- GRÁFICOS -->
+        <section id="graficos" class="tab-section" style="display:none;">
+            <h2>Gráficos Automáticos</h2>
+            <canvas id="graficoGolos" width="300" height="200"></canvas>
+        </section>
+
+        <!-- ORIGINAL -->
+        <section id="original" class="tab-section" style="display:none;">
+            <h2>TABELA ORIGINAL</h2>
+            <pre id="tabelaOriginal"></pre>
+        </section>
+    </main>
+
+    <!-- JAVASCRIPT -->
+    <script src="app.js"></script>
+</body>
+</html>
+``
